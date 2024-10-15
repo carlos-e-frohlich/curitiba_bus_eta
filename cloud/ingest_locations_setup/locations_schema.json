@@ -1,0 +1,80 @@
+[
+    {
+        "name": "fleet_number",
+        "type": "string",
+        "mode": "REQUIRED",
+        "description": "The vehicle's fleet number"
+    },
+    {
+        "name": "update_datetime",
+        "type": "timestamp",
+        "mode": "REQUIRED",
+        "description": "The time of the position update"
+    },
+    {
+        "name": "latitude",
+        "type": "float",
+        "mode": "REQUIRED",
+        "description": "The position latitude"
+    },
+    {
+        "name": "longitude",
+        "type": "float",
+        "mode": "REQUIRED",
+        "description": "The position longitude"
+    },
+    {
+        "name": "route_number",
+        "type": "integer",
+        "mode": "REQUIRED",
+        "description": "The route number"
+    },
+    {
+        "name": "wheelchair_accessibility",
+        "type": "integer",
+        "mode": "NULLABLE",
+        "description": "The vehicle's wheelchair accessibility (1 = yes, 0 = no)"
+    },
+    {
+        "name": "bus_type",
+        "type": "string",
+        "mode": "NULLABLE",
+        "description": "The vehicle's type"
+    },
+    {
+        "name": "timetable",
+        "type": "integer",
+        "mode": "NULLABLE",
+        "description": "The timetable currently followed by the vehicle"
+    },
+    {
+        "name": "status_time",
+        "type": "string",
+        "mode": "NULLABLE",
+        "description": "The vehicle status regarding time"
+    },
+    {
+        "name": "status_route",
+        "type": "string",
+        "mode": "NULLABLE",
+        "description": "The vehicle status regarding its route"
+    },
+    {
+        "name": "direction",
+        "type": "string",
+        "mode": "NULLABLE",
+        "description": "The vehicle's direction"
+    },
+    {
+        "name": "cycle_count",
+        "type": "integer",
+        "mode": "REQUIRED",
+        "description": "Count of cycles with no position update (1 = position is up-to-date)"
+    },
+    {
+        "name": "destination",
+        "type": "string",
+        "mode": "NULLABLE",
+        "description": "The vehicle's destination"
+    }
+]
