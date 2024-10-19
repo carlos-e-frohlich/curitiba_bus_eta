@@ -10,15 +10,15 @@ from keys import api_key_bus_data
 
 
 def fetch_set_of_locations(
-        route_number: str,
+        line_number: str,
         message=None,
         context=None
     ) -> pd.DataFrame:
     """
-    Return a pandas Dataframe containing the latest bus locations.
+    Return a pandas Dataframe containing the latest set of bus locations.
 
     Args:
-        route_number (str): The route number.
+        line_number (str): The line number.
         message (str, optional): Required by Pub/Sub. Defaults to None.
         context (str, optional): Required by Pub/Sub. Defaults to None.
 
@@ -30,7 +30,7 @@ def fetch_set_of_locations(
 
     positions_url = 'https://transporteservico.urbs.curitiba.pr.gov.br/getVeiculos.php?linha={0}&c={1}'
 
-    url = positions_url.format(route_number, api_key_bus_data)
+    url = positions_url.format(line_number, api_key_bus_data)
 
     r = requests.get(url)
 
@@ -61,7 +61,7 @@ def fetch_set_of_locations(
             'REFRESH': 'update_time',
             'LAT': 'latitude',
             'LON': 'longitude',
-            'CODIGOLINHA': 'route_number',
+            'CODIGOLINHA': 'line_number',
             'ADAPT': 'wheelchair_accessibility',
             'TIPO_VEIC': 'bus_type',
             'TABELA': 'timetable',
@@ -87,8 +87,6 @@ def fetch_set_of_locations(
 
     for column in ['latitude', 'longitude']:
         locations_batch[column] = pd.to_numeric(locations_batch[column], errors='coerce').astype(dtype=np.float32)
-
-    locations_batch['route_number'] = pd.to_numeric(locations_batch['route_number'], errors='coerce').astype(dtype=pd.UInt16Dtype())
 
     locations_batch['wheelchair_accessibility'] = pd.to_numeric(locations_batch['wheelchair_accessibility'], errors='coerce').astype(dtype=pd.UInt8Dtype())
 
@@ -151,7 +149,7 @@ def fetch_set_of_locations(
             'update_datetime',
             'latitude',
             'longitude',
-            'route_number',
+            'line_number',
             'wheelchair_accessibility',
             'bus_type',
             'timetable',

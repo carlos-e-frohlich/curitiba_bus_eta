@@ -24,10 +24,10 @@
         "description": "The position longitude"
     },
     {
-        "name": "route_number",
-        "type": "integer",
+        "name": "line_number",
+        "type": "string",
         "mode": "REQUIRED",
-        "description": "The route number"
+        "description": "The line number"
     },
     {
         "name": "wheelchair_accessibility",

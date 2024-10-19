@@ -3,7 +3,7 @@ from fetch import fetch_set_of_locations
 
 
 def append_locations(message=None, context=None):
-    set_of_locations = fetch_set_of_locations(route_number='216')
+    set_of_locations = fetch_set_of_locations(line_number='216')
 
     pandas_gbq.to_gbq(
         set_of_locations,
