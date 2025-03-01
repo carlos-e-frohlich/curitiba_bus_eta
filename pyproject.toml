@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "curitiba_bus_eta"
+version = "0.0.1"
+description = "A piece of software for predicting the time at whic a bus from a specified line will arrive at a given stop."
+authors = [
+  { name = "Carlos Eduardo Fr\u00f6hlich" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.12.3"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known_first_party = ["curitiba_bus_eta"]
+force_sort_within_sections = true
