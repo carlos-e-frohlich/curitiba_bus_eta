@@ -148,6 +148,9 @@ venv_*/
 # Rope project settings
 .ropeproject
 
+# VS Code settings
+.vscode
+
 # mkdocs documentation
 /site
 
