@@ -125,11 +125,6 @@ def ingest_locations(line_number: str):
                 table.num_rows
             )
         )
-        # print(
-        #     'Loaded {} rows and {} columns to {}'.format(
-        #         table.num_rows, len(table.schema), table_id
-        #     )
-        # )
 
     else:
         print('No rows have been loaded.')
