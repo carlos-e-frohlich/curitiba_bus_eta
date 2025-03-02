@@ -1,0 +1,1497 @@
+{
+    "010": {
+        "line_name_original": "INTERBAIRROS I (HORÁRIO)",
+        "line_name_short": "Interbairros I (Horário)",
+        "line_name_long": "Interbairros I (Horário)"
+    },
+    "011": {
+        "line_name_original": "INTERBAIRROS I (ANTI-HORÁRIO)",
+        "line_name_short": "Interbairros I (Anti-horário)",
+        "line_name_long": "Interbairros I (Anti-horário)"
+    },
+    "020": {
+        "line_name_original": "INTERBAIRROS II (HORÁRIO)",
+        "line_name_short": "Interbairros II (Horário)",
+        "line_name_long": "Interbairros II (Horário)"
+    },
+    "021": {
+        "line_name_original": "INTERBAIRROS II (ANTI-HORÁRIO)",
+        "line_name_short": "Interbairros II (Anti-horário)",
+        "line_name_long": "Interbairros II (Anti-horário)"
+    },
+    "022": {
+        "line_name_original": "INTER 2 (HORÁRIO)",
+        "line_name_short": "Inter 2 (Horário)",
+        "line_name_long": "Inter 2 (Horário)"
+    },
+    "023": {
+        "line_name_original": "INTER 2 ( ANTI-HORÁRIO)",
+        "line_name_short": "Inter 2 (Anti-horário)",
+        "line_name_long": "Inter 2 (Anti-horário)"
+    },
+    "024": {
+        "line_name_original": "C. RASO / CAMP. SIQUEIRA",
+        "line_name_short": "C. Raso/Camp. Siqueira",
+        "line_name_long": "Capão Raso/Campina do Siqueira"
+    },
+    "027": {
+        "line_name_original": "C. RASO / C. DO SIQUEIRA",
+        "line_name_short": "C. Raso/C. do Siqueira",
+        "line_name_long": "Capão Raso/Campina do Siqueira"
+    },
+    "030": {
+        "line_name_original": "INTERBAIRROS III",
+        "line_name_short": "Interbairros III",
+        "line_name_long": "Interbairros III"
+    },
+    "040": {
+        "line_name_original": "INTERBAIRROS IV",
+        "line_name_short": "Interbairros IV",
+        "line_name_long": "Interbairros IV"
+    },
+    "050": {
+        "line_name_original": "INTERBAIRROS V",
+        "line_name_short": "Interbairros V",
+        "line_name_long": "Interbairros V"
+    },
+    "060": {
+        "line_name_original": "INTERBAIRROS VI",
+        "line_name_short": "Interbairros VI",
+        "line_name_long": "Interbairros VI"
+    },
+    "150": {
+        "line_name_original": "C. MÚSICA / V. ALEGRE",
+        "line_name_short": "C. Música/V. Alegre",
+        "line_name_long": "Canal da Música/Vista Alegre"
+    },
+    "160": {
+        "line_name_original": "JD. MERCÊS / GUANABARA",
+        "line_name_short": "Jd. Mercês/Guanabara",
+        "line_name_long": "Jardim Mercês/Guanabara"
+    },
+    "164": {
+        "line_name_original": "R.PRADO/C.GOMES",
+        "line_name_short": "R. Prado/C. Gomes",
+        "line_name_long": "Raquel Prado/Carlos Gomes"
+    },
+    "166": {
+        "line_name_original": "V. NORI",
+        "line_name_short": "V. Nori",
+        "line_name_long": "Vila Nori"
+    },
+    "168": {
+        "line_name_original": "RAPOSO TAVARES",
+        "line_name_short": "Raposo Tavares",
+        "line_name_long": "Raposo Tavares"
+    },
+    "169": {
+        "line_name_original": "JD. KOSMOS",
+        "line_name_short": "Jd. Kosmos",
+        "line_name_long": "Jardim Kosmos"
+    },
+    "170": {
+        "line_name_original": "BRACATINGA",
+        "line_name_short": "Bracatinga",
+        "line_name_long": "Bracatinga"
+    },
+    "171": {
+        "line_name_original": "PRIMAVERA",
+        "line_name_short": "Primavera",
+        "line_name_long": "Primavera"
+    },
+    "175": {
+        "line_name_original": "BOM RETIRO / PUC",
+        "line_name_short": "Bom Retiro/PUC",
+        "line_name_long": "Bom Retiro/PUC"
+    },
+    "176": {
+        "line_name_original": "PARQUE TANGUÁ",
+        "line_name_short": "Parque Tanguá",
+        "line_name_long": "Parque Tanguá"
+    },
+    "177": {
+        "line_name_original": "CABRAL / PQ.TANGUÁ",
+        "line_name_short": "Cabral/Pq. Tanguá",
+        "line_name_long": "Cabral/Parque Tanguá"
+    },
+    "181": {
+        "line_name_original": "MATEUS LEME",
+        "line_name_short": "Mateus Leme",
+        "line_name_long": "Mateus Leme"
+    },
+    "182": {
+        "line_name_original": "ABRANCHES",
+        "line_name_short": "Abranches",
+        "line_name_long": "Abranches"
+    },
+    "183": {
+        "line_name_original": "JD. CHAPARRAL",
+        "line_name_short": "Jd. Chaparral",
+        "line_name_long": "Jardim Chaparral"
+    },
+    "184": {
+        "line_name_original": "V. SUIÇA",
+        "line_name_short": "V. Suíça",
+        "line_name_long": "Vila Suíça"
+    },
+    "188": {
+        "line_name_original": "MAD. PILARZINHO / UBERABA",
+        "line_name_short": "Mad. Pilarzinho/Uberaba",
+        "line_name_long": "Madrugueiro Pilarzinho/Uberaba"
+    },
+    "189": {
+        "line_name_original": "MAD. ABRANCHES",
+        "line_name_short": "Mad. Abranches",
+        "line_name_long": "Madrugueiro Abranches"
+    },
+    "203": {
+        "line_name_original": "STA. CÂNDIDA / C. RASO",
+        "line_name_short": "Sta. Cândida/C. Raso",
+        "line_name_long": "Santa Cândida/Capão Raso"
+    },
+    "205": {
+        "line_name_original": "BARREIRINHA",
+        "line_name_short": "Barreirinha",
+        "line_name_long": "Barreirinha"
+    },
+    "206": {
+        "line_name_original": "BARREIRINHA / SÃO JOSÉ",
+        "line_name_short": "Barreirinha/São José",
+        "line_name_long": "Barreirinha/São José"
+    },
+    "207": {
+        "line_name_original": "CABRAL / OSÓRIO",
+        "line_name_short": "Cabral/Osório",
+        "line_name_long": "Cabral/Osório"
+    },
+    "209": {
+        "line_name_original": "MAD. S. CÂNDIDA / C. RASO",
+        "line_name_short": "Mad. S. Cândida/C. Raso",
+        "line_name_long": "Madrugueiro Santa Cândida/Capão Raso"
+    },
+    "210": {
+        "line_name_original": "CIC/CABRAL",
+        "line_name_short": "CIC/Cabral",
+        "line_name_long": "CIC/Cabral"
+    },
+    "211": {
+        "line_name_original": "COLINA VERDE",
+        "line_name_short": "Colina Verde",
+        "line_name_long": "Colina Verde"
+    },
+    "212": {
+        "line_name_original": "SOLAR",
+        "line_name_short": "Solar",
+        "line_name_long": "Solar"
+    },
+    "213": {
+        "line_name_original": "SÃO JOÃO",
+        "line_name_short": "São João",
+        "line_name_long": "São João"
+    },
+    "214": {
+        "line_name_original": "TINGUI",
+        "line_name_short": "Tingui",
+        "line_name_long": "Tingui"
+    },
+    "216": {
+        "line_name_original": "CABRAL / PORTÃO",
+        "line_name_short": "Cabral/Portão",
+        "line_name_long": "Cabral/Portão"
+    },
+    "222": {
+        "line_name_original": "V. ESPERANÇA",
+        "line_name_short": "V. Esperança",
+        "line_name_long": "Vila Esperança"
+    },
+    "224": {
+        "line_name_original": "CASSIOPÉIA",
+        "line_name_short": "Cassiopeia",
+        "line_name_long": "Cassiopeia"
+    },
+    "225": {
+        "line_name_original": "BOA VISTA / BARREIRINHA",
+        "line_name_short": "Boa Vista/Barreirinha",
+        "line_name_long": "Boa Vista/Barreirinha"
+    },
+    "226": {
+        "line_name_original": "ABAETÉ",
+        "line_name_short": "Abaeté",
+        "line_name_long": "Abaeté"
+    },
+    "229": {
+        "line_name_original": "MAD. PENHA / F. NORONHA",
+        "line_name_short": "Mad. Penha/F. Noronha",
+        "line_name_long": "Madrugueiro Penha/Fernando de Noronha"
+    },
+    "231": {
+        "line_name_original": "BANESTADO / CALIFÓRNIA",
+        "line_name_short": "Banestado/Califórnia",
+        "line_name_long": "Banestado/Califórnia"
+    },
+    "232": {
+        "line_name_original": "ALIANÇA",
+        "line_name_short": "Aliança",
+        "line_name_long": "Aliança"
+    },
+    "233": {
+        "line_name_original": "OLARIA",
+        "line_name_short": "Olaria",
+        "line_name_long": "Olaria"
+    },
+    "236": {
+        "line_name_original": "SÃO BENEDITO",
+        "line_name_short": "São Benedito",
+        "line_name_long": "São Benedito"
+    },
+    "237": {
+        "line_name_original": "PARQUE ATUBA",
+        "line_name_short": "Parque Atuba",
+        "line_name_long": "Parque Atuba"
+    },
+    "242": {
+        "line_name_original": "V. LEONICE",
+        "line_name_short": "V. Leonice",
+        "line_name_long": "Vila Leonice"
+    },
+    "243": {
+        "line_name_original": "STA. TEREZINHA",
+        "line_name_short": "Sta. Terezinha",
+        "line_name_long": "Santa Terezinha"
+    },
+    "244": {
+        "line_name_original": "JD. DO ARROIO",
+        "line_name_short": "Jd. do Arroio",
+        "line_name_long": "Jardim do Arroio"
+    },
+    "245": {
+        "line_name_original": "ANITA GARIBALDI",
+        "line_name_short": "Anita Garibaldi",
+        "line_name_long": "Anita Garibaldi"
+    },
+    "250": {
+        "line_name_original": "LIGEIRÃO NORTE / SUL",
+        "line_name_short": "Ligeirão Norte/Sul",
+        "line_name_long": "Ligeirão Norte/Sul"
+    },
+    "260": {
+        "line_name_original": "MAL. HERMES / STA. EFIGÊNIA",
+        "line_name_short": "Mal. Hermes/Sta. Efigênia",
+        "line_name_long": "Marechal Hermes/Santa Efigênia"
+    },
+    "265": {
+        "line_name_original": "AHÚ / LOS ANGELES",
+        "line_name_short": "Ahú/Los Angeles",
+        "line_name_long": "Ahú/Los Angeles"
+    },
+    "266": {
+        "line_name_original": "ESTRIBO AHÚ",
+        "line_name_short": "Estribo Ahú",
+        "line_name_long": "Estribo Ahú"
+    },
+    "272": {
+        "line_name_original": "PAINEIRAS",
+        "line_name_short": "Paineiras",
+        "line_name_long": "Paineiras"
+    },
+    "274": {
+        "line_name_original": "STA. GEMA",
+        "line_name_short": "Sta. Gema",
+        "line_name_long": "Santa Gema"
+    },
+    "275": {
+        "line_name_original": "F. NORONHA / LARANJEIRAS",
+        "line_name_short": "F. Noronha/Laranjeiras",
+        "line_name_long": "Fernando de Noronha/Laranjeiras"
+    },
+    "280": {
+        "line_name_original": "NSA.SRA.DE NAZARÉ",
+        "line_name_short": "Nsa. Sra. de Nazaré",
+        "line_name_long": "Nossa Senhora de Nazaré"
+    },
+    "302": {
+        "line_name_original": "CENTENÁRIO / RUI BARBOSA",
+        "line_name_short": "Centenário/Rui Barbosa",
+        "line_name_long": "Centenário/Rui Barbosa"
+    },
+    "303": {
+        "line_name_original": "CENTENÁRIO / C. COMPRIDO",
+        "line_name_short": "Centenário/C. Comprido",
+        "line_name_long": "Centenário/Campo Comprido"
+    },
+    "304": {
+        "line_name_original": "PINHAIS / C. COMPRIDO",
+        "line_name_short": "Pinhais/C. Comprido",
+        "line_name_long": "Pinhais/Campo Comprido"
+    },
+    "305": {
+        "line_name_original": "CENTENÁRIO",
+        "line_name_short": "Centenário",
+        "line_name_long": "Centenário"
+    },
+    "307": {
+        "line_name_original": "B. ALTO / STA. FELICIDADE",
+        "line_name_short": "B. Alto/Sta. Felicidade",
+        "line_name_long": "Bairro Alto/Santa Felicidade"
+    },
+    "308": {
+        "line_name_original": "MAD. CENTENÁRIO / RUI BARBOSA",
+        "line_name_short": "Mad. Centenário/Rui Barbosa",
+        "line_name_long": "Madrugueiro Centenário/Rui Barbosa"
+    },
+    "309": {
+        "line_name_original": "MAD. CENTENÁRIO",
+        "line_name_short": "Mad. Centenário",
+        "line_name_long": "Madrugueiro Centenário"
+    },
+    "311": {
+        "line_name_original": "ARAGUAIA",
+        "line_name_short": "Araguaia",
+        "line_name_long": "Araguaia"
+    },
+    "321": {
+        "line_name_original": "TRINDADE",
+        "line_name_short": "Trindade",
+        "line_name_long": "Trindade"
+    },
+    "322": {
+        "line_name_original": "CAMARGO",
+        "line_name_short": "Camargo",
+        "line_name_long": "Camargo"
+    },
+    "323": {
+        "line_name_original": "V. AUTÓDROMO",
+        "line_name_short": "V. Autódromo",
+        "line_name_long": "Vila Autódromo"
+    },
+    "331": {
+        "line_name_original": "MERCÚRIO",
+        "line_name_short": "Mercúrio",
+        "line_name_long": "Mercúrio"
+    },
+    "332": {
+        "line_name_original": "ACRÓPOLE",
+        "line_name_short": "Acrópole",
+        "line_name_long": "Acrópole"
+    },
+    "334": {
+        "line_name_original": "AGRÍCOLA",
+        "line_name_short": "Agrícola",
+        "line_name_long": "Agrícola"
+    },
+    "335": {
+        "line_name_original": "CENTENÁRIO / BOQUEIRÃO",
+        "line_name_short": "Centenário/Boqueirão",
+        "line_name_long": "Centenário/Boqueirão"
+    },
+    "336": {
+        "line_name_original": "V. RENO",
+        "line_name_short": "V. Reno",
+        "line_name_long": "Vila Reno"
+    },
+    "338": {
+        "line_name_original": "CENTENÁRIO / HAUER",
+        "line_name_short": "Centenário/Hauer",
+        "line_name_long": "Centenário/Hauer"
+    },
+    "341": {
+        "line_name_original": "B. ALTO / STA. CÂNDIDA",
+        "line_name_short": "B. Alto/Sta. Cândida",
+        "line_name_long": "Bairro Alto/Santa Cândida"
+    },
+    "342": {
+        "line_name_original": "B. ALTO / BOA VISTA",
+        "line_name_short": "B. Alto/Boa Vista",
+        "line_name_long": "Bairro Alto/Boa Vista"
+    },
+    "343": {
+        "line_name_original": "PARAÍSO",
+        "line_name_short": "Paraíso",
+        "line_name_long": "Paraíso"
+    },
+    "350": {
+        "line_name_original": "FAGUNDES VARELA/PINHEIRINHO",
+        "line_name_short": "Fagundes Varela/Pinheirinho",
+        "line_name_long": "Fagundes Varela/Pinheirinho"
+    },
+    "360": {
+        "line_name_original": "NOVENA",
+        "line_name_short": "Novena",
+        "line_name_long": "Novena"
+    },
+    "361": {
+        "line_name_original": "AUGUSTO STRESSER",
+        "line_name_short": "Augusto Stresser",
+        "line_name_long": "Augusto Stresser"
+    },
+    "365": {
+        "line_name_original": "JD. SOCIAL / BATEL",
+        "line_name_short": "Jd. Social/Batel",
+        "line_name_long": "Jardim Social/Batel"
+    },
+    "366": {
+        "line_name_original": "ITUPAVA / HOSP. MILITAR",
+        "line_name_short": "Itupava/Hosp. Militar",
+        "line_name_long": "Itupava/Hospital Militar"
+    },
+    "371": {
+        "line_name_original": "HIGIENÓPOLIS",
+        "line_name_short": "Higienópolis",
+        "line_name_long": "Higienópolis"
+    },
+    "372": {
+        "line_name_original": "TARUMÃ",
+        "line_name_short": "Tarumã",
+        "line_name_long": "Tarumã"
+    },
+    "373": {
+        "line_name_original": "ALTO TARUMÃ",
+        "line_name_short": "Alto Tarumã",
+        "line_name_long": "Alto Tarumã"
+    },
+    "374": {
+        "line_name_original": "HUGO LANGE",
+        "line_name_short": "Hugo Lange",
+        "line_name_long": "Hugo Lange"
+    },
+    "375": {
+        "line_name_original": "SAGRADO CORAÇÃO",
+        "line_name_short": "Sagrado Coração",
+        "line_name_long": "Sagrado Coração"
+    },
+    "380": {
+        "line_name_original": "DETRAN / VIC. MACHADO",
+        "line_name_short": "Detran/Vic. Machado",
+        "line_name_long": "Detran/Vicente Machado"
+    },
+    "385": {
+        "line_name_original": "CRISTO REI",
+        "line_name_short": "Cristo Rei",
+        "line_name_long": "Cristo Rei"
+    },
+    "386": {
+        "line_name_original": "CAJURU",
+        "line_name_short": "Cajuru",
+        "line_name_long": "Cajuru"
+    },
+    "387": {
+        "line_name_original": "PALOTINOS",
+        "line_name_short": "Palotinos",
+        "line_name_long": "Palotinos"
+    },
+    "389": {
+        "line_name_original": "MAD. TARUMÃ / AUGUSTA",
+        "line_name_short": "Mad. Tarumã/Augusta",
+        "line_name_long": "Madrugueiro Tarumã/Augusta"
+    },
+    "461": {
+        "line_name_original": "STA. BARBARA",
+        "line_name_short": "Sta. Bárbara",
+        "line_name_long": "Santa Bárbara"
+    },
+    "462": {
+        "line_name_original": "PETRÓPOLIS",
+        "line_name_short": "Petrópolis",
+        "line_name_long": "Petrópolis"
+    },
+    "463": {
+        "line_name_original": "SOLITUDE",
+        "line_name_short": "Solitude",
+        "line_name_long": "Solitude"
+    },
+    "464": {
+        "line_name_original": "A. MUNHOZ / JD. BOTÂNICO",
+        "line_name_short": "A. Munhoz/Jd. Botânico",
+        "line_name_long": "Alcides Munhoz/Jardim Botânico"
+    },
+    "465": {
+        "line_name_original": "ERASTO  GAERTNER",
+        "line_name_short": "Erasto Gaertner",
+        "line_name_long": "Erasto Gaertner"
+    },
+    "466": {
+        "line_name_original": "ESTUDANTES",
+        "line_name_short": "Estudantes",
+        "line_name_long": "Estudantes"
+    },
+    "468": {
+        "line_name_original": "JD. CENTAURO",
+        "line_name_short": "Jd. Centauro",
+        "line_name_long": "Jardim Centauro"
+    },
+    "469": {
+        "line_name_original": "CENTRO POLITÉCNICO",
+        "line_name_short": "Centro Politécnico",
+        "line_name_long": "Centro Politécnico"
+    },
+    "471": {
+        "line_name_original": "V. SÃO PAULO",
+        "line_name_short": "V. São Paulo",
+        "line_name_long": "Vila São Paulo"
+    },
+    "472": {
+        "line_name_original": "UBERABA",
+        "line_name_short": "Uberaba",
+        "line_name_long": "Uberaba"
+    },
+    "474": {
+        "line_name_original": "JD. ITIBERÊ",
+        "line_name_short": "Jd. Itiberê",
+        "line_name_long": "Jardim Itiberê"
+    },
+    "475": {
+        "line_name_original": "CANAL BELÉM",
+        "line_name_short": "Canal Belém",
+        "line_name_long": "Canal Belém"
+    },
+    "477": {
+        "line_name_original": "V. MACEDO VIA GUABIROTUBA",
+        "line_name_short": "V. Macedo via Guabirotuba",
+        "line_name_long": "Vila Macedo via Guabirotuba"
+    },
+    "489": {
+        "line_name_original": "MAD. PETRÓPOLIS / SOLITUDE",
+        "line_name_short": "Mad. Petrópolis/Solitude",
+        "line_name_long": "Madrugueiro Petrópolis/Solitude"
+    },
+    "500": {
+        "line_name_original": "LIGEIRÃO BOQUEIRÃO",
+        "line_name_short": "Ligeirão Boqueirão",
+        "line_name_long": "Ligeirão Boqueirão"
+    },
+    "502": {
+        "line_name_original": "CIRCULAR SUL (HORÁRIO)",
+        "line_name_short": "Circular Sul (Horário)",
+        "line_name_long": "Circular Sul (Horário)"
+    },
+    "503": {
+        "line_name_original": "BOQUEIRÃO",
+        "line_name_short": "Boqueirão",
+        "line_name_long": "Boqueirão"
+    },
+    "505": {
+        "line_name_original": "BOQUEIRÃO / C. CÍVICO",
+        "line_name_short": "Boqueirão/C. Cívico",
+        "line_name_long": "Boqueirão/Centro Cívico"
+    },
+    "506": {
+        "line_name_original": "BAIRRO NOVO",
+        "line_name_short": "Bairro Novo",
+        "line_name_long": "Bairro Novo"
+    },
+    "507": {
+        "line_name_original": "SÍTIO CERCADO (HORÁRIO)",
+        "line_name_short": "Sítio Cercado (Horário)",
+        "line_name_long": "Sítio Cercado (Horário)"
+    },
+    "508": {
+        "line_name_original": "SÍTIO CERCADO (ANTI-HORÁRIO)",
+        "line_name_short": "Sítio Cercado (Anti-horário)",
+        "line_name_long": "Sítio Cercado (Anti-horário)"
+    },
+    "509": {
+        "line_name_original": "MAD. BOQUEIRÃO",
+        "line_name_short": "Mad. Boqueirão",
+        "line_name_long": "Madrugueiro Boqueirão"
+    },
+    "511": {
+        "line_name_original": "SÃO FRANCISCO",
+        "line_name_short": "São Francisco",
+        "line_name_long": "São Francisco"
+    },
+    "512": {
+        "line_name_original": "ITAMARATI",
+        "line_name_short": "Itamarati",
+        "line_name_long": "Itamarati"
+    },
+    "513": {
+        "line_name_original": "HAUER / BOQUEIRÃO",
+        "line_name_short": "Hauer/Boqueirão",
+        "line_name_long": "Hauer/Boqueirão"
+    },
+    "515": {
+        "line_name_original": "IGUAPE II",
+        "line_name_short": "Iguape II",
+        "line_name_long": "Iguape II"
+    },
+    "516": {
+        "line_name_original": "C. BELEM / S. FILHO",
+        "line_name_short": "C. Belém/S. Filho",
+        "line_name_long": "Canal Belém/Salgado Filho"
+    },
+    "518": {
+        "line_name_original": "PUC/RODOFERROVIARIA",
+        "line_name_short": "PUC/Rodoferroviária",
+        "line_name_long": "PUC/Rodoferroviária"
+    },
+    "519": {
+        "line_name_original": "MAD. S. FRANCISCO / IGUAPE",
+        "line_name_short": "Mad. S. Francisco/Iguape",
+        "line_name_long": "Madrugueiro S. Francisco/Iguape"
+    },
+    "520": {
+        "line_name_original": "OSTERNACK / S. CERCADO L.D.",
+        "line_name_short": "Osternack/S. Cercado L. D.",
+        "line_name_long": "Osternack/Sítio Cercado L. D."
+    },
+    "521": {
+        "line_name_original": "NIVALDO BRAGA",
+        "line_name_short": "Nivaldo Braga",
+        "line_name_long": "Nivaldo Braga"
+    },
+    "522": {
+        "line_name_original": "MARINGÁ",
+        "line_name_short": "Maringá",
+        "line_name_long": "Maringá"
+    },
+    "523": {
+        "line_name_original": "IGUAPE I",
+        "line_name_short": "Iguape I",
+        "line_name_long": "Iguape I"
+    },
+    "524": {
+        "line_name_original": "BAIRRO NOVO B/C",
+        "line_name_short": "Bairro Novo B/C",
+        "line_name_long": "Bairro Novo B/C"
+    },
+    "528": {
+        "line_name_original": "BOQUEIRÃO/PINHEIRINHO",
+        "line_name_short": "Boqueirão/Pinheirinho",
+        "line_name_long": "Boqueirão/Pinheirinho"
+    },
+    "529": {
+        "line_name_original": "PARQUE NÁUTICO",
+        "line_name_short": "Parque Náutico",
+        "line_name_long": "Parque Náutico"
+    },
+    "531": {
+        "line_name_original": "STA. INÊS",
+        "line_name_short": "Sta. Inês",
+        "line_name_long": "Santa Inês"
+    },
+    "532": {
+        "line_name_original": "JD.PARANAENSE",
+        "line_name_short": "Jd. Paranaense",
+        "line_name_long": "Jardim Paranaense"
+    },
+    "533": {
+        "line_name_original": "E. VERÍSSIMO / PANTANAL",
+        "line_name_short": "É. Veríssimo/Pantanal",
+        "line_name_long": "Érico Veríssimo/Pantanal"
+    },
+    "534": {
+        "line_name_original": "PARIGOT DE SOUZA",
+        "line_name_short": "Parigot de Souza",
+        "line_name_long": "Parigot de Souza"
+    },
+    "535": {
+        "line_name_original": "OSTERNACK / BOQUEIRÃO",
+        "line_name_short": "Osternack/Boqueirão",
+        "line_name_long": "Osternack/Boqueirão"
+    },
+    "536": {
+        "line_name_original": "ZOOLÓGICO",
+        "line_name_short": "Zoológico",
+        "line_name_long": "Zoológico"
+    },
+    "541": {
+        "line_name_original": "BAIRRO NOVO A",
+        "line_name_short": "Bairro Novo A",
+        "line_name_long": "Bairro Novo A"
+    },
+    "542": {
+        "line_name_original": "BAIRRO NOVO B",
+        "line_name_short": "Bairro Novo B",
+        "line_name_long": "Bairro Novo B"
+    },
+    "545": {
+        "line_name_original": "TRABALHADOR",
+        "line_name_short": "Trabalhador",
+        "line_name_long": "Trabalhador"
+    },
+    "547": {
+        "line_name_original": "BAIRRO NOVO C",
+        "line_name_short": "Bairro Novo C",
+        "line_name_long": "Bairro Novo C"
+    },
+    "548": {
+        "line_name_original": "OSTERNACK / S. CERCADO",
+        "line_name_short": "Osternack/S. Cercado",
+        "line_name_long": "Osternack/Sítio Cercado"
+    },
+    "549": {
+        "line_name_original": "MAD. BAIRRO NOVO",
+        "line_name_short": "Mad. Bairro Novo",
+        "line_name_long": "Madrugueiro Bairro Novo"
+    },
+    "550": {
+        "line_name_original": "LIGEIRÃO PINHEIRINHO / C. GOMES",
+        "line_name_short": "Ligeirão Pinheirinho/C. Gomes",
+        "line_name_long": "Ligeirão Pinheirinho/Carlos Gomes"
+    },
+    "552": {
+        "line_name_original": "SAMBAQUI",
+        "line_name_short": "Sambaqui",
+        "line_name_long": "Sambaqui"
+    },
+    "553": {
+        "line_name_original": "MORADIAS PQ. IGUAÇU",
+        "line_name_short": "Moradias Pq. Iguaçu",
+        "line_name_long": "Moradias Parque Iguaçu"
+    },
+    "560": {
+        "line_name_original": "ALFERES POLI",
+        "line_name_short": "Alferes Poli",
+        "line_name_long": "Alferes Poli"
+    },
+    "561": {
+        "line_name_original": "GUILHERMINA",
+        "line_name_short": "Guilhermina",
+        "line_name_long": "Guilhermina"
+    },
+    "600": {
+        "line_name_original": "TEQUALY/QUARTEL GENERAL",
+        "line_name_short": "Tequaly/Quartel General",
+        "line_name_long": "Tequaly/Quartel General"
+    },
+    "602": {
+        "line_name_original": "CIRCULAR SUL  (ANTI-HORÁRIO)",
+        "line_name_short": "Circular Sul (Anti-horário)",
+        "line_name_long": "Circular Sul (Anti-horário)"
+    },
+    "603": {
+        "line_name_original": "PINHEIRINHO/RUI BARBOSA",
+        "line_name_short": "Pinheirinho/Rui Barbosa",
+        "line_name_long": "Pinheirinho/Rui Barbosa"
+    },
+    "607": {
+        "line_name_original": "COLOMBO / CIC",
+        "line_name_short": "Colombo/CIC",
+        "line_name_long": "Colombo/CIC"
+    },
+    "609": {
+        "line_name_original": "MAD. CIC",
+        "line_name_short": "Mad. CIC",
+        "line_name_long": "Madrugueiro CIC"
+    },
+    "610": {
+        "line_name_original": "S. CERCADO / C. RASO",
+        "line_name_short": "S. Cercado/C. Raso",
+        "line_name_long": "Sítio Cercado/Capão Raso"
+    },
+    "611": {
+        "line_name_original": "FAZENDINHA / PORTÃO",
+        "line_name_short": "Fazendinha/Portão",
+        "line_name_long": "Fazendinha/Portão"
+    },
+    "612": {
+        "line_name_original": "PORTÃO / CIC",
+        "line_name_short": "Portão/CIC",
+        "line_name_long": "Portão/CIC"
+    },
+    "614": {
+        "line_name_original": "FAZENDINHA / PUC",
+        "line_name_short": "Fazendinha/PUC",
+        "line_name_long": "Fazendinha/PUC"
+    },
+    "615": {
+        "line_name_original": "UBERLÂNDIA",
+        "line_name_short": "Uberlândia",
+        "line_name_long": "Uberlândia"
+    },
+    "616": {
+        "line_name_original": "PORTAO / STA.BERNADETHE",
+        "line_name_short": "Portão/Sta. Bernadethe",
+        "line_name_long": "Portão/Santa Bernadethe"
+    },
+    "617": {
+        "line_name_original": "JD. LUDOVICA",
+        "line_name_short": "Jd. Ludovica",
+        "line_name_long": "Jardim Ludovica"
+    },
+    "619": {
+        "line_name_original": "STA. RITA / CIC",
+        "line_name_short": "Sta. Rita/CIC",
+        "line_name_long": "Santa Rita/CIC"
+    },
+    "620": {
+        "line_name_original": "STA. CRUZ",
+        "line_name_short": "Sta. Cruz",
+        "line_name_long": "Santa Cruz"
+    },
+    "621": {
+        "line_name_original": "FANNY",
+        "line_name_short": "Fanny",
+        "line_name_long": "Fanny"
+    },
+    "622": {
+        "line_name_original": "RONDON",
+        "line_name_short": "Rondon",
+        "line_name_long": "Rondon"
+    },
+    "623": {
+        "line_name_original": "PARQUE INDUSTRIAL",
+        "line_name_short": "Parque Industrial",
+        "line_name_long": "Parque Industrial"
+    },
+    "624": {
+        "line_name_original": "V. SÃO PEDRO",
+        "line_name_short": "V. São Pedro",
+        "line_name_long": "Vila São Pedro"
+    },
+    "625": {
+        "line_name_original": "GRAMADOS",
+        "line_name_short": "Gramados",
+        "line_name_long": "Gramados"
+    },
+    "627": {
+        "line_name_original": "BOSCH",
+        "line_name_short": "Bosch",
+        "line_name_long": "Bosch"
+    },
+    "628": {
+        "line_name_original": "CARBOMAFRA",
+        "line_name_short": "Carbomafra",
+        "line_name_long": "Carbomafra"
+    },
+    "629": {
+        "line_name_original": "ALTO BOQUEIRÃO",
+        "line_name_short": "Alto Boqueirão",
+        "line_name_long": "Alto Boqueirão"
+    },
+    "630": {
+        "line_name_original": "VITÓRIA RÉGIA",
+        "line_name_short": "Vitória Régia",
+        "line_name_long": "Vitória Régia"
+    },
+    "631": {
+        "line_name_original": "PIRATINI / BR-476",
+        "line_name_short": "Piratini/BR-476",
+        "line_name_long": "Piratini/BR-476"
+    },
+    "632": {
+        "line_name_original": "QUARTEL GENERAL",
+        "line_name_short": "Quartel General",
+        "line_name_long": "Quartel General"
+    },
+    "633": {
+        "line_name_original": "MARIA ANGÉLICA",
+        "line_name_short": "Maria Angélica",
+        "line_name_long": "Maria Angélica"
+    },
+    "635": {
+        "line_name_original": "LONDRINA",
+        "line_name_short": "Londrina",
+        "line_name_long": "Londrina"
+    },
+    "636": {
+        "line_name_original": "RIO NEGRO",
+        "line_name_short": "Rio Negro",
+        "line_name_long": "Rio Negro"
+    },
+    "637": {
+        "line_name_original": "STA. JOANA",
+        "line_name_short": "Sta. Joana",
+        "line_name_long": "Santa Joana"
+    },
+    "638": {
+        "line_name_original": "PINHEIRINHO",
+        "line_name_short": "Pinheirinho",
+        "line_name_long": "Pinheirinho"
+    },
+    "639": {
+        "line_name_original": "FUTURAMA",
+        "line_name_short": "Futurama",
+        "line_name_long": "Futurama"
+    },
+    "640": {
+        "line_name_original": "PALMEIRA",
+        "line_name_short": "Palmeira",
+        "line_name_long": "Palmeira"
+    },
+    "641": {
+        "line_name_original": "LUIZ NICHELE",
+        "line_name_short": "Luiz Nichele",
+        "line_name_long": "Luiz Nichele"
+    },
+    "642": {
+        "line_name_original": "GANCHINHO",
+        "line_name_short": "Ganchinho",
+        "line_name_long": "Ganchinho"
+    },
+    "643": {
+        "line_name_original": "UMBARÁ",
+        "line_name_short": "Umbará",
+        "line_name_long": "Umbará"
+    },
+    "644": {
+        "line_name_original": "PINHEIRINHO / CIC",
+        "line_name_short": "Pinheirinho/CIC",
+        "line_name_long": "Pinheirinho/CIC"
+    },
+    "646": {
+        "line_name_original": "POMPEIA/JANAINA",
+        "line_name_short": "Pompeia/Janaína",
+        "line_name_long": "Pompeia/Janaína"
+    },
+    "649": {
+        "line_name_original": "PIRINEUS",
+        "line_name_short": "Pirineus",
+        "line_name_long": "Pirineus"
+    },
+    "650": {
+        "line_name_original": "STA. RITA / PINHEIRINHO",
+        "line_name_short": "Sta. Rita/Pinheirinho",
+        "line_name_long": "Santa Rita/Pinheirinho"
+    },
+    "652": {
+        "line_name_original": "V. VERDE",
+        "line_name_short": "V. Verde",
+        "line_name_long": "Vila Verde"
+    },
+    "653": {
+        "line_name_original": "SABARÁ",
+        "line_name_short": "Sabará",
+        "line_name_long": "Sabará"
+    },
+    "654": {
+        "line_name_original": "CAMPO ALEGRE",
+        "line_name_short": "Campo Alegre",
+        "line_name_long": "Campo Alegre"
+    },
+    "655": {
+        "line_name_original": "JD. DA ORDEM",
+        "line_name_short": "Jd. da Ordem",
+        "line_name_long": "Jardim da Ordem"
+    },
+    "657": {
+        "line_name_original": "XAXIM / CAPÃO RASO",
+        "line_name_short": "Xaxim/Capão Raso",
+        "line_name_long": "Xaxim/Capão Raso"
+    },
+    "658": {
+        "line_name_original": "C. RASO / CAIUÁ",
+        "line_name_short": "C. Raso/Caiuá",
+        "line_name_long": "Capão Raso/Caiuá"
+    },
+    "659": {
+        "line_name_original": "CAXIMBA / OLARIA",
+        "line_name_short": "Caximba/Olaria",
+        "line_name_long": "Caximba/Olaria"
+    },
+    "661": {
+        "line_name_original": "LINDÓIA",
+        "line_name_short": "Lindoia",
+        "line_name_long": "Lindoia"
+    },
+    "662": {
+        "line_name_original": "DOM ÁTICO",
+        "line_name_short": "Dom Ático",
+        "line_name_long": "Dom Ático"
+    },
+    "663": {
+        "line_name_original": "V. CUBAS",
+        "line_name_short": "V. Cubas",
+        "line_name_long": "Vila Cubas"
+    },
+    "665": {
+        "line_name_original": "V. REX",
+        "line_name_short": "V. Rex",
+        "line_name_long": "Vila Rex"
+    },
+    "666": {
+        "line_name_original": "NOVO MUNDO",
+        "line_name_short": "Novo Mundo",
+        "line_name_long": "Novo Mundo"
+    },
+    "668": {
+        "line_name_original": "CASA DE CUSTÓDIA",
+        "line_name_short": "Casa de Custódia",
+        "line_name_long": "Casa de Custódia"
+    },
+    "670": {
+        "line_name_original": "SÃO JORGE",
+        "line_name_short": "São Jorge",
+        "line_name_long": "São Jorge"
+    },
+    "671": {
+        "line_name_original": "PORTÃO",
+        "line_name_short": "Portão",
+        "line_name_long": "Portão"
+    },
+    "673": {
+        "line_name_original": "FORMOSA",
+        "line_name_short": "Formosa",
+        "line_name_long": "Formosa"
+    },
+    "674": {
+        "line_name_original": "NSA. SRA. DA LUZ",
+        "line_name_short": "Nsa. Sra. da Luz",
+        "line_name_long": "Nossa Senhora da Luz"
+    },
+    "679": {
+        "line_name_original": "MAD. TATUQUARA",
+        "line_name_short": "Mad. Tatuquara",
+        "line_name_long": "Madrugueiro Tatuquara"
+    },
+    "680": {
+        "line_name_original": "RURBANA",
+        "line_name_short": "Rurbana",
+        "line_name_long": "Rurbana"
+    },
+    "681": {
+        "line_name_original": "DALAGASSA",
+        "line_name_short": "Dalagassa",
+        "line_name_long": "Dalagassa"
+    },
+    "683": {
+        "line_name_original": "FUTURAMA / S. CERCADO",
+        "line_name_short": "Futurama/S. Cercado",
+        "line_name_long": "Futurama/Sítio Cercado"
+    },
+    "684": {
+        "line_name_original": "RIO BONITO",
+        "line_name_short": "Rio Bonito",
+        "line_name_long": "Rio Bonito"
+    },
+    "685": {
+        "line_name_original": "RIO BONITO / CIC",
+        "line_name_short": "Rio Bonito/CIC",
+        "line_name_long": "Rio Bonito/CIC"
+    },
+    "689": {
+        "line_name_original": "MAD. S. PEDRO / R. NEGRO",
+        "line_name_short": "Mad. S. Pedro/R. Negro",
+        "line_name_long": "Madrugueiro São Pedro/Rio Negro"
+    },
+    "690": {
+        "line_name_original": "V. JULIANA",
+        "line_name_short": "V. Juliana",
+        "line_name_long": "Vila Juliana"
+    },
+    "700": {
+        "line_name_original": "PINHEIRINHO/CABRAL",
+        "line_name_short": "Pinheirinho/Cabral",
+        "line_name_long": "Pinheirinho/Cabral"
+    },
+    "701": {
+        "line_name_original": "FAZENDINHA",
+        "line_name_short": "Fazendinha",
+        "line_name_long": "Fazendinha"
+    },
+    "702": {
+        "line_name_original": "CAIUA/CACHOEIRA",
+        "line_name_short": "Caiuá/Cachoeira",
+        "line_name_long": "Caiuá/Cachoeira"
+    },
+    "703": {
+        "line_name_original": "CAIUÁ",
+        "line_name_short": "Caiuá",
+        "line_name_long": "Caiuá"
+    },
+    "706": {
+        "line_name_original": "CAIUA/FAZ/CENTRO",
+        "line_name_short": "Caiuá/Faz./Centro",
+        "line_name_long": "Caiuá/Fazendinha/Centro"
+    },
+    "707": {
+        "line_name_original": "TATUQUARA / CENTRO",
+        "line_name_short": "Tatuquara/Centro",
+        "line_name_long": "Tatuquara/Centro"
+    },
+    "710": {
+        "line_name_original": "STA.AMELIA/P.BELO",
+        "line_name_short": "Sta. Amélia/P. Belo",
+        "line_name_long": "Santa Amélia/Porto Belo"
+    },
+    "711": {
+        "line_name_original": "ITATIAIA",
+        "line_name_short": "Itatiaia",
+        "line_name_long": "Itatiaia"
+    },
+    "712": {
+        "line_name_original": "JD. INDEPENDÊNCIA / CIC",
+        "line_name_short": "Jd. Independência/CIC",
+        "line_name_long": "Jardim Independência/CIC"
+    },
+    "713": {
+        "line_name_original": "STA. AMÉLIA",
+        "line_name_short": "Sta. Amélia",
+        "line_name_long": "Santa Amélia"
+    },
+    "718": {
+        "line_name_original": "PORTO BELO",
+        "line_name_short": "Porto Belo",
+        "line_name_long": "Porto Belo"
+    },
+    "720": {
+        "line_name_original": "FAZENDINHA / C. COMPRIDO",
+        "line_name_short": "Fazendinha/C. Comprido",
+        "line_name_long": "Fazendinha/Campo Comprido"
+    },
+    "721": {
+        "line_name_original": "MÁRIO JORGE",
+        "line_name_short": "Mário Jorge",
+        "line_name_long": "Mário Jorge"
+    },
+    "722": {
+        "line_name_original": "COMPLEXO INDUSTRIAL",
+        "line_name_short": "Complexo Industrial",
+        "line_name_long": "Complexo Industrial"
+    },
+    "723": {
+        "line_name_original": "EMÍLIO ROMANI",
+        "line_name_short": "Emílio Romani",
+        "line_name_long": "Emílio Romani"
+    },
+    "724": {
+        "line_name_original": "FAZENDINHA/CAIUÁ-B.VISTA",
+        "line_name_short": "Fazendinha/Caiuá - B. Vista",
+        "line_name_long": "Fazendinha/Caiuá - Boa Vista"
+    },
+    "732": {
+        "line_name_original": "CAIUA / C.COMPRIDO",
+        "line_name_short": "Caiuá/C. Comprido",
+        "line_name_long": "Caiuá/Caiuá Comprido"
+    },
+    "760": {
+        "line_name_original": "STA. QUITÉRIA",
+        "line_name_short": "Sta. Quitéria",
+        "line_name_long": "Santa Quitéria"
+    },
+    "761": {
+        "line_name_original": "V. IZABEL",
+        "line_name_short": "V. Izabel",
+        "line_name_long": "Vila Izabel"
+    },
+    "762": {
+        "line_name_original": "V. ROSINHA",
+        "line_name_short": "V. Rosinha",
+        "line_name_long": "Vila Rosinha"
+    },
+    "772": {
+        "line_name_original": "TUPY/JULIANA",
+        "line_name_short": "Tupy/Juliana",
+        "line_name_long": "Tupy/Juliana"
+    },
+    "773": {
+        "line_name_original": "VIZINHANÇA/STA. RITA",
+        "line_name_short": "Vizinhança/Sta. Rita",
+        "line_name_long": "Vizinhança/Santa Rita"
+    },
+    "777": {
+        "line_name_original": "V. VELHA",
+        "line_name_short": "V. Velha",
+        "line_name_long": "Vila Velha"
+    },
+    "778": {
+        "line_name_original": "COTOLENGO",
+        "line_name_short": "Cotolengo",
+        "line_name_long": "Cotolengo"
+    },
+    "779": {
+        "line_name_original": "V. VELHA/BURITI",
+        "line_name_short": "V. Velha/Buriti",
+        "line_name_long": "Vila Velha/Buriti"
+    },
+    "788": {
+        "line_name_original": "MAD. V. VELHA",
+        "line_name_short": "Mad. V. Velha",
+        "line_name_long": "Madrugueiro Vila Velha"
+    },
+    "789": {
+        "line_name_original": "MAD. CAIUÁ",
+        "line_name_short": "Mad. Caiuá",
+        "line_name_long": "Madrugueiro Caiuá"
+    },
+    "794": {
+        "line_name_original": "PQ. LAGO AZUL",
+        "line_name_short": "Pq. Lago Azul",
+        "line_name_long": "Parque Lago Azul"
+    },
+    "801": {
+        "line_name_original": "CAMP. SIQUEIRA / BATEL",
+        "line_name_short": "Camp. Siqueira/Batel",
+        "line_name_long": "Campina do Siqueira/Batel"
+    },
+    "809": {
+        "line_name_original": "MAD. CAMPO COMPRIDO",
+        "line_name_short": "Mad. Campo Comprido",
+        "line_name_long": "Madrugueiro Campo Comprido"
+    },
+    "812": {
+        "line_name_original": "MONTANA",
+        "line_name_short": "Montana",
+        "line_name_long": "Montana"
+    },
+    "814": {
+        "line_name_original": "MOSSUNGUÊ",
+        "line_name_short": "Mossunguê",
+        "line_name_long": "Mossunguê"
+    },
+    "815": {
+        "line_name_original": "REFORÇO TUIUTI",
+        "line_name_short": "Reforço Tuitui",
+        "line_name_long": "Reforço Tuitui"
+    },
+    "816": {
+        "line_name_original": "CAMP. SIQUEIRA / STA.FELICIDADE",
+        "line_name_short": "Camp. Siqueira/Sta. Felicidade",
+        "line_name_long": "Campina do Siqueira/Santa Felicidade"
+    },
+    "817": {
+        "line_name_original": "SATURNO / VENEZA",
+        "line_name_short": "Saturno/Veneza",
+        "line_name_long": "Saturno/Veneza"
+    },
+    "820": {
+        "line_name_original": "AUGUSTA/V. MARQUETO",
+        "line_name_short": "Augusta/V. Marqueto",
+        "line_name_long": "Augusta/Vila Marqueto"
+    },
+    "821": {
+        "line_name_original": "FERNÃO DIAS",
+        "line_name_short": "Fernão Dias",
+        "line_name_long": "Fernão Dias"
+    },
+    "822": {
+        "line_name_original": "GABINETO",
+        "line_name_short": "Gabineto",
+        "line_name_long": "Gabineto"
+    },
+    "823": {
+        "line_name_original": "AUGUSTA",
+        "line_name_short": "Augusta",
+        "line_name_long": "Augusta"
+    },
+    "825": {
+        "line_name_original": "V. MARQUETO",
+        "line_name_short": "V. Marqueto",
+        "line_name_long": "Vila Marqueto"
+    },
+    "826": {
+        "line_name_original": "C. COMPRIDO / CIC",
+        "line_name_short": "C. Comprido/CIC",
+        "line_name_long": "Campo Comprido/CIC"
+    },
+    "827": {
+        "line_name_original": "RIVIERA",
+        "line_name_short": "Riviera",
+        "line_name_long": "Riviera"
+    },
+    "828": {
+        "line_name_original": "C. COMPRIDO / C. RASO",
+        "line_name_short": "C. Comprido/C. Raso",
+        "line_name_long": "Campo Comprido/Capão Raso"
+    },
+    "829": {
+        "line_name_original": "UNIV.POSITIVO",
+        "line_name_short": "Univ. Positivo",
+        "line_name_long": "Universidade Positivo"
+    },
+    "831": {
+        "line_name_original": "FAZENDINHA / C.RASO",
+        "line_name_short": "Fazendinha/C. Raso",
+        "line_name_long": "Fazendinha/Capão Raso"
+    },
+    "832": {
+        "line_name_original": "POSIVILLE / INC",
+        "line_name_short": "Posiville/INC",
+        "line_name_long": "Posiville/Instituto de Neurologia de Curitiba"
+    },
+    "860": {
+        "line_name_original": "V. SANDRA",
+        "line_name_short": "V. Sandra",
+        "line_name_long": "Vila Sandra"
+    },
+    "861": {
+        "line_name_original": "TRAMONTINA",
+        "line_name_short": "Tramontina",
+        "line_name_long": "Tramontina"
+    },
+    "862": {
+        "line_name_original": "BARIGUI",
+        "line_name_short": "Barigui",
+        "line_name_long": "Barigui"
+    },
+    "863": {
+        "line_name_original": "ÁGUA VERDE",
+        "line_name_short": "Água Verde",
+        "line_name_long": "Água Verde"
+    },
+    "864": {
+        "line_name_original": "TEQUALY",
+        "line_name_short": "Tequaly",
+        "line_name_long": "Tequaly"
+    },
+    "865": {
+        "line_name_original": "JD. ESPLANADA",
+        "line_name_short": "Jd. Esplanada",
+        "line_name_long": "Jardim Esplanada"
+    },
+    "870": {
+        "line_name_original": "SÃO BRAZ",
+        "line_name_short": "São Braz",
+        "line_name_long": "São Braz"
+    },
+    "875": {
+        "line_name_original": "BIGORRILHO",
+        "line_name_short": "Bigorrilho",
+        "line_name_long": "Bigorrilho"
+    },
+    "876": {
+        "line_name_original": "SAVÓIA",
+        "line_name_short": "Savoia",
+        "line_name_long": "Savoia"
+    },
+    "889": {
+        "line_name_original": "MAD. SÃO BRÁZ",
+        "line_name_short": "Mad. São Braz",
+        "line_name_long": "Madrugueiro São Braz"
+    },
+    "901": {
+        "line_name_original": "STA. FELICIDADE",
+        "line_name_short": "Sta. Felicidade",
+        "line_name_long": "Santa Felicidade"
+    },
+    "902": {
+        "line_name_original": "STA. FELICIDADE / PCA.TIRADENTES",
+        "line_name_short": "Sta. Felicidade/Pça. Tiradentes",
+        "line_name_long": "Santa Felicidade / Praça Tiradentes"
+    },
+    "911": {
+        "line_name_original": "PASSAÚNA",
+        "line_name_short": "Passaúna",
+        "line_name_long": "Passaúna"
+    },
+    "912": {
+        "line_name_original": "JOSÉ CULPI",
+        "line_name_short": "José Culpi",
+        "line_name_long": "José Culpi"
+    },
+    "913": {
+        "line_name_original": "BUTIATUVINHA",
+        "line_name_short": "Butiatuvinha",
+        "line_name_long": "Butiatuvinha"
+    },
+    "915": {
+        "line_name_original": "OURO VERDE (VIA VL.BÁDIA)",
+        "line_name_short": "Ouro Verde (via. Vl. Bádia)",
+        "line_name_long": "Ouro Verde (via Vila Bádia)"
+    },
+    "916": {
+        "line_name_original": "PINHEIROS",
+        "line_name_short": "Pinheiro",
+        "line_name_long": "Pinheiro"
+    },
+    "917": {
+        "line_name_original": "JD. IPÊ",
+        "line_name_short": "Jd. Ipê",
+        "line_name_long": "Jardim Ipê"
+    },
+    "924": {
+        "line_name_original": "STA. FELICIDADE / STA. CÂNDIDA",
+        "line_name_short": "Sta. Felicidade/Sta. Cândida",
+        "line_name_long": "Santa Felicidade/Santa Cândida"
+    },
+    "928": {
+        "line_name_original": "PASSAÚNA / JD.IPÊ",
+        "line_name_short": "Passaúna/Jd. Ipê",
+        "line_name_long": "Passaúna/Jardim Ipê"
+    },
+    "948": {
+        "line_name_original": "BUTIATUVINHA/ OURO VERDE",
+        "line_name_short": "Butiatuvinha/Ouro Verde",
+        "line_name_long": "Butiatuvinha/Ouro Verde"
+    },
+    "958": {
+        "line_name_original": "PINHEIROS / JOSÉ CULPI",
+        "line_name_short": "Pinheiros/José Culpi",
+        "line_name_long": "Pinheiros/José Culpi"
+    },
+    "965": {
+        "line_name_original": "SÃO BERNARDO",
+        "line_name_short": "São Bernardo",
+        "line_name_long": "São Bernardo"
+    },
+    "967": {
+        "line_name_original": "JÚLIO GRAF",
+        "line_name_short": "Júlio Graf",
+        "line_name_long": "Júlio Graf"
+    },
+    "972": {
+        "line_name_original": "JD. ITÁLIA",
+        "line_name_short": "Jd. Itália",
+        "line_name_long": "Jardim Itália"
+    },
+    "979": {
+        "line_name_original": "TURISMO",
+        "line_name_short": "Turismo",
+        "line_name_long": "Turismo"
+    },
+    "989": {
+        "line_name_original": "MAD. STA. FELICIDADE",
+        "line_name_short": "Mad. Sta. Felicidade",
+        "line_name_long": "Madrugueiro Santa Felicidade"
+    },
+    "X02": {
+        "line_name_original": "REFORÇO TUBO BARIGUI",
+        "line_name_short": "Reforço Tubo Barigui",
+        "line_name_long": "Reforço Tubo Barigui"
+    },
+    "X08": {
+        "line_name_original": "REFORÇO PINHEIRINHO",
+        "line_name_short": "Reforço Pinheirinho",
+        "line_name_long": "Reforço Pinheirinho"
+    },
+    "X11": {
+        "line_name_original": "SITIO CERCADO / C. RASO",
+        "line_name_short": "Sítio Cercado/C. Raso",
+        "line_name_long": "Sítio Cercado/Capão Raso"
+    },
+    "X12": {
+        "line_name_original": "ESPECIAL BOQUEIRAO",
+        "line_name_short": "Especial Boqueirão",
+        "line_name_long": "Especial Boqueirão"
+    },
+    "X20": {
+        "line_name_original": "PORTAO/SITIO CERCADO",
+        "line_name_short": "Portão/Sítio Cercado",
+        "line_name_long": "Portão/Sítio Cercado"
+    },
+    "X36": {
+        "line_name_original": "REF. GUADALUPE / FAZENDINHA",
+        "line_name_short": "Ref. Guadalupe/Fazendinha",
+        "line_name_long": "Reforço Guadalupe/Fazendinha"
+    },
+    "X37": {
+        "line_name_original": "STA. RITA / PINH. (SEMI DIRETO)",
+        "line_name_short": "Sta. Rita/Pinheirinho (Semi-direto)",
+        "line_name_long": "Santa Rita/Pinheirinho (Semi-direto)"
+    },
+    "X38": {
+        "line_name_original": "RIO BONITO (SEMI-DIRETO)",
+        "line_name_short": "Rio Bonito (Semi-direto)",
+        "line_name_long": "Rio Bonito (Semi-direto)"
+    },
+    "X41": {
+        "line_name_original": "REFORÇO SABARÁ",
+        "line_name_short": "Reforço Sabará",
+        "line_name_long": "Reforço Sabará"
+    },
+    "X42": {
+        "line_name_original": "ESPECIAL CABRAL / C. IMBUIA",
+        "line_name_short": "Especial Cabral/C. Imbuia",
+        "line_name_long": "Especial Cabral/Capão da Imbuia"
+    },
+    "X43": {
+        "line_name_original": "BRF / COPEL",
+        "line_name_short": "BRF/Copel",
+        "line_name_long": "BRF/Copel"
+    },
+    "X45": {
+        "line_name_original": "ESPECIAL B.ALTO / C.IMBUIA",
+        "line_name_short": "Especial B. Alto/C. da Imbuia",
+        "line_name_long": "Especial Bairro Alto/Capão da Imbuia"
+    }
+}
