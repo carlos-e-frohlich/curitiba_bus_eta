@@ -34,87 +34,69 @@ def fetch_route(line_number: str) -> pd.DataFrame:
             timeout=15
         )
 
-        r_json = r.json()
+        if r.status_code == 200:
+            r_json = r.json()
 
-        r_json_len = len(r_json)
+            if len(r_json) > 0:
+                # 2. Format data.
 
-        if r_json_len > 0:
-            # 2. Format data.
+                route = pd.DataFrame()
 
-            route = pd.DataFrame()
+                for point in r_json:
+                    route = pd.concat(
+                        objs=[
+                            route,
+                            pd.DataFrame(
+                                data=point,
+                                index=range(len(point))
+                            )
+                        ]
+                    )
 
-            for point in r_json:
-                route = pd.concat(
-                    objs=[
-                        route,
-                        pd.DataFrame(
-                            data=point,
-                            index=range(len(point))
-                        )
-                    ]
+                route.reset_index(
+                    drop=True,
+                    inplace=True
                 )
 
-            route.reset_index(
-                drop=True,
-                inplace=True
-            )
+                route.rename(
+                    mapper={
+                        'SHP': 'route_id',
+                        'LAT': 'latitude',
+                        'LON': 'longitude',
+                        'COD': 'line_number'
+                    },
+                    axis=1,
+                    inplace=True
+                )
 
-            route.rename(
-                mapper={
-                    'SHP': 'route_id',
-                    'LAT': 'latitude',
-                    'LON': 'longitude',
-                    'COD': 'line_number'
-                },
-                axis=1,
-                inplace=True
-            )
+                for column in ['latitude', 'longitude']:
+                    route[column] = route[column].str.replace(',', '.')
 
-            for column in ['latitude', 'longitude']:
-                route[column] = route[column].str.replace(',', '.')
+                route = route.astype(
+                    dtype={
+                        'route_id': int,
+                        'latitude': float,
+                        'longitude': float,
+                        'line_number': str
+                    }
+                )
 
-            route = route.astype(
-                dtype={
-                    'route_id': int,
-                    'latitude': float,
-                    'longitude': float,
-                    'line_number': str
-                }
-            )
-
-            route = route[
-                [
-                    'line_number',
-                    'route_id',
-                    'latitude',
-                    'longitude'
+                route = route[
+                    [
+                        'line_number',
+                        'route_id',
+                        'latitude',
+                        'longitude'
+                    ]
                 ]
-            ]
 
-            # 3. Return data.
+                # 3. Return data.
 
-            return route
+                return route
 
-        elif r_json_len == 0:
-            route = pd.DataFrame(
-                columns=[
-                    'line_number',
-                    'route_id',
-                    'latitude',
-                    'longitude'
-                ]
-            )
-
-            route = route.astype(
-                dtype={
-                    'line_number': str,
-                    'route_id': int,
-                    'latitude': float,
-                    'longitude': float
-                }
-            )
-
-            return route
+            else:
+                print(f'Route request for line number {line_number} has resulted in an empty list.')
+                return None
 
     except requests.Timeout:
         print('Request has timed out.')
