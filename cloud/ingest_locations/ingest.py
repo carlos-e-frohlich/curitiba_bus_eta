@@ -128,4 +128,3 @@ def ingest_locations(line_number: str):
 
     else:
         print('No rows have been loaded.')
-
