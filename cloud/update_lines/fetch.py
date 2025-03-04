@@ -52,91 +52,96 @@ def fetch_lines():
         if r.status_code == 200:
             r_json = r.json()
 
-            # 3. Create lines.
+            if len(r_json) > 0:
+                # 3. Create lines.
 
-            lines = pd.json_normalize(data=r_json)
+                lines = pd.json_normalize(data=r_json)
 
-            lines.rename(
-                mapper={
-                    'COD': 'line_number',
-                    'NOME': 'line_name_original',
-                    'SOMENTE_CARTAO': 'fare_card_only',
-                    'CATEGORIA_SERVICO': 'service_category',
-                    'NOME_COR': 'color'
-                },
-                axis=1,
-                inplace=True
-            )
+                lines.rename(
+                    mapper={
+                        'COD': 'line_number',
+                        'NOME': 'line_name_original',
+                        'SOMENTE_CARTAO': 'fare_card_only',
+                        'CATEGORIA_SERVICO': 'service_category',
+                        'NOME_COR': 'color'
+                    },
+                    axis=1,
+                    inplace=True
+                )
 
-            # 4. Set dtypes.
+                # 4. Set dtypes.
 
-            lines = lines.astype(
-                dtype={
-                    'line_number': str,
-                    'fare_card_only': str,
-                    'service_category': str,
-                    'color': str
-                }
-            )
+                lines = lines.astype(
+                    dtype={
+                        'line_number': str,
+                        'fare_card_only': str,
+                        'service_category': str,
+                        'color': str
+                    }
+                )
 
-            # 5. Add alternative line names.
+                # 5. Add alternative line names.
 
-            lines = lines.merge(
-                right=line_names,
-                how='left',
-                on='line_number'
-            )
+                lines = lines.merge(
+                    right=line_names,
+                    how='left',
+                    on='line_number'
+                )
 
-            # 6. Translate values into English.
+                # 6. Translate values into English.
 
-            lines['fare_card_only'] = lines['fare_card_only'].replace(
-                to_replace={
-                    'S': 'Yes',
-                    'N': 'No'
-                }
-            )
+                lines['fare_card_only'] = lines['fare_card_only'].replace(
+                    to_replace={
+                        'S': 'Yes',
+                        'N': 'No'
+                    }
+                )
 
-            lines['service_category'] = lines['service_category'].replace(
-                to_replace={
-                    'CONVENCIONAL': 'Standard',
-                    'ALIMENTADOR': 'Feeder',
-                    'TRONCAL': 'Main line',
-                    'LINHA DIRETA': 'Direct line',
-                    'EXPRESSO': 'Express',
-                    'INTERBAIRROS': 'Inter-neighborhood',
-                    'LIGEIRÃO': 'Fast express',
-                    'MADRUGUEIRO': 'Night owl',
-                    'JARDINEIRA': 'Open top'
-                }
-            )
+                lines['service_category'] = lines['service_category'].replace(
+                    to_replace={
+                        'CONVENCIONAL': 'Standard',
+                        'ALIMENTADOR': 'Feeder',
+                        'TRONCAL': 'Main line',
+                        'LINHA DIRETA': 'Direct line',
+                        'EXPRESSO': 'Express',
+                        'INTERBAIRROS': 'Inter-neighborhood',
+                        'LIGEIRÃO': 'Fast express',
+                        'MADRUGUEIRO': 'Night owl',
+                        'JARDINEIRA': 'Open top'
+                    }
+                )
 
-            lines['color'] = lines['color'].replace(
-                to_replace={
-                    'AMARELA': 'Yellow',
-                    'LARANJA': 'Orange',
-                    'PRATA': 'Silver',
-                    'VERMELHA': 'Red',
-                    'VERDE': 'Green',
-                    'MADRUGUEIRO': 'Night owl',
-                    'TURISMO': 'Tourism',
-                }
-            )
+                lines['color'] = lines['color'].replace(
+                    to_replace={
+                        'AMARELA': 'Yellow',
+                        'LARANJA': 'Orange',
+                        'PRATA': 'Silver',
+                        'VERMELHA': 'Red',
+                        'VERDE': 'Green',
+                        'MADRUGUEIRO': 'Night owl',
+                        'TURISMO': 'Tourism',
+                    }
+                )
 
-            # 7. Re-order columns and return lines.
+                # 7. Re-order columns and return lines.
 
-            lines = lines[
-                [
-                    'line_number',
-                    'line_name_original',
-                    'line_name_short',
-                    'line_name_long',
-                    'fare_card_only',
-                    'service_category',
-                    'color'
+                lines = lines[
+                    [
+                        'line_number',
+                        'line_name_original',
+                        'line_name_short',
+                        'line_name_long',
+                        'fare_card_only',
+                        'service_category',
+                        'color'
+                    ]
                 ]
-            ]
 
-            return lines
+                return lines
+
+            else:
+                print('Request for lines has resulted in an empty list.')
+                return None
 
         else:
             return None
