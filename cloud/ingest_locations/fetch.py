@@ -5,6 +5,14 @@ import pandas as pd
 import numpy as np
 from convert import resolve_update_datetime
 from keys import api_key_bus_data
+from google.cloud import bigquery
+import datetime as dt
+import pytz
+import pandas as pd
+
+# Preamble.
+
+client = bigquery.Client()
 
 # Function: fetch_locations_batch.
 
@@ -176,4 +184,109 @@ def fetch_set_of_locations(
 
     except requests.JSONDecodeError:
         print('JSON decode error.')
+        return None
+
+# Function: convert_to_timezone
+
+
+def convert_to_timezone(
+        datetime: dt.datetime,
+        tz_0='UTC',
+        tz_1='America/Sao_Paulo',
+    ) -> dt.datetime:
+    '''
+    Convert a datetime between two specified timezones.
+
+    Args:
+        datetime (dt.datetime): The datetime to be converted. Must be aware.
+        tz_0 (str): The timezone from which to convert. Defaults to 'UTC'.
+        tz_1 (str): The timezone to which to convert. Defaults to
+            'America/Sao_Paulo'.
+
+    Returns:
+        dt.datetime: The converted datetime.
+    '''
+
+    datetime = datetime.replace(tzinfo=pytz.timezone(tz_0)).astimezone(pytz.timezone(tz_1))
+
+    return datetime
+
+# Function: fetch_recent_locations
+
+
+def fetch_recent_locations(hours: int) -> pd.DataFrame:
+    '''
+    Fetch all locations in locations.locations within the last specified
+    number of hours.
+
+    Args:
+        hours (int): The lenght of the time window including locations.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing all locations within the
+        last specified number of hours
+    '''
+
+    # Preamble.
+
+    datetime_string_format = '%Y-%m-%d %H:%M:%S.%f%z'
+
+    # Set current time. Cloud Functions uses UTC.
+    now_utc = dt.datetime.now()
+    now_utc = pytz.timezone('UTC').localize(now_utc)
+
+    # Convert current time from UTC to America/Sao_Paulo.
+    now_local = now_utc.replace(tzinfo=pytz.utc).astimezone(pytz.timezone('America/Sao_Paulo'))
+
+    # Get string for current time minus specified time window.
+    then_local = now_local - dt.timedelta(hours=hours)
+    then_local = then_local.strftime(datetime_string_format)
+
+    query = '''
+    SELECT *
+    FROM locations.locations
+    WHERE update_datetime >= CAST('{0}' AS TIMESTAMP)
+    ORDER BY update_datetime DESC
+    '''.format(then_local)
+
+    recent_locations = client.query_and_wait(query=query).to_dataframe()
+
+    recent_locations['update_datetime'] = recent_locations['update_datetime'].apply(convert_to_timezone)
+
+    return recent_locations
+
+
+# Function: drop_potential_location_duplicates
+
+
+def drop_potential_location_duplicates(
+        recent_locations: pd.DataFrame,
+        set_of_locations: pd.DataFrame
+    ) -> pd.DataFrame:
+    '''
+    Eliminate from a set of locations the observations in locations.locations.
+
+    Args:
+        recent_locations (pd.DataFrame): The most recent locations in
+            locations.locations.
+        set_of_locations (pd.DataFrame): The set of locations fetch from
+            the API.
+
+    Returns:
+        pd.DataFrame: The set of locations, the observations already in
+            locations.locations dropped.
+    '''
+
+    if set_of_locations is not None:
+        fleet_number_condition = set_of_locations['fleet_number'].isin(recent_locations['fleet_number'])
+        update_datetime_condition = set_of_locations['update_datetime'].isin(recent_locations['update_datetime'])
+        latitude_condition = set_of_locations['latitude'].isin(recent_locations['latitude'])
+        longitude_condition = set_of_locations['longitude'].isin(recent_locations['longitude'])
+        condition = fleet_number_condition * update_datetime_condition * latitude_condition * longitude_condition
+
+        set_of_locations = set_of_locations.loc[~condition]
+
+        return set_of_locations
+
+    else:
         return None

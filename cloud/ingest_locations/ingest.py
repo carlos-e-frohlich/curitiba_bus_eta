@@ -1,6 +1,6 @@
 from google.cloud import bigquery
 import pandas as pd
-from fetch import fetch_set_of_locations
+from fetch import fetch_set_of_locations, fetch_recent_locations, drop_potential_location_duplicates
 
 # Construct a BigQuery client object.
 client = bigquery.Client()
@@ -17,9 +17,14 @@ def ingest_locations(line_number: str):
     Args:
         line_number (str): The line number whose locations are ingested.
     '''
-    # Fetch set of locations.
+    # Fetch and deduplicate set of locations.
 
+    recent_locations = fetch_recent_locations(hours=3)
     set_of_locations = fetch_set_of_locations(line_number=line_number)
+    set_of_locations = drop_potential_location_duplicates(
+        recent_locations=recent_locations,
+        set_of_locations=set_of_locations
+    )
 
     if set_of_locations is not None:
         # Set configuration options for load job.
