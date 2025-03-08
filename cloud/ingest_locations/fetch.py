@@ -172,3 +172,8 @@ def fetch_set_of_locations(
 
     except requests.Timeout:
         print('Request has timed out.')
+        return None
+
+    except requests.JSONDecodeError:
+        print('JSON decode error.')
+        return None
