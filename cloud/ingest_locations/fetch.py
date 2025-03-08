@@ -276,8 +276,10 @@ def drop_potential_location_duplicates(
         pd.DataFrame: The set of locations, the observations already in
             locations.locations dropped.
     '''
+    if recent_locations.shape[0] == 0:
+        return set_of_locations
 
-    if set_of_locations is not None:
+    elif set_of_locations is not None:
         fleet_number_condition = set_of_locations['fleet_number'].isin(recent_locations['fleet_number'])
         update_datetime_condition = set_of_locations['update_datetime'].isin(recent_locations['update_datetime'])
         latitude_condition = set_of_locations['latitude'].isin(recent_locations['latitude'])
