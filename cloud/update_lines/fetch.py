@@ -148,4 +148,8 @@ def fetch_lines():
 
     except requests.Timeout:
         print('Request has timed out.')
+        return None
 
+    except requests.JSONDecodeError:
+        print('JSON decode error.')
+        return None
