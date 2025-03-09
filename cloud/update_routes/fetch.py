@@ -99,11 +99,15 @@ def fetch_route(line_number: str) -> pd.DataFrame:
                 return None
 
     except requests.Timeout:
-        print('Request has timed out.')
+        print('Route request has timed out.')
         return None
 
     except requests.JSONDecodeError:
         print('JSON decode error.')
+        return None
+
+    except requests.ConnectionError:
+        print('Connection error.')
         return None
 
 # Function: fetch_lines

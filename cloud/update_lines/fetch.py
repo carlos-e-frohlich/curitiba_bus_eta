@@ -153,3 +153,7 @@ def fetch_lines():
     except requests.JSONDecodeError:
         print('JSON decode error.')
         return None
+
+    except requests.ConnectionError:
+        print('Connection error.')
+        return None

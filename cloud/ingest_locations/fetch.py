@@ -186,6 +186,10 @@ def fetch_set_of_locations(
         print('JSON decode error.')
         return None
 
+    except requests.ConnectionError:
+        print('Connection error.')
+        return None
+
 # Function: convert_to_timezone
 
 
