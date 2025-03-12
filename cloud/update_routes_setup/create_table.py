@@ -20,6 +20,12 @@ schema = [
         description='The route ID.'
     ),
     bigquery.SchemaField(
+        name='order',
+        field_type='INT64',
+        mode='REQUIRED',
+        description='The order of the point within the pair (line_number, route_id).'
+    ),
+    bigquery.SchemaField(
         name='latitude',
         field_type='FLOAT',
         mode='REQUIRED',

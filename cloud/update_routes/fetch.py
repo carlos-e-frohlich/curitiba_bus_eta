@@ -42,24 +42,29 @@ def fetch_route(line_number: str) -> pd.DataFrame:
 
                 route = pd.DataFrame()
 
+                order = 0
+
                 for point in r_json:
                     route = pd.concat(
                         objs=[
                             route,
                             pd.DataFrame(
                                 data=point,
-                                index=range(len(point))
+                                index=[order]
                             )
                         ]
                     )
 
+                    order += 1
+
                 route.reset_index(
-                    drop=True,
+                    drop=False,
                     inplace=True
                 )
 
                 route.rename(
                     mapper={
+                        'index': 'order',
                         'SHP': 'route_id',
                         'LAT': 'latitude',
                         'LON': 'longitude',
@@ -77,7 +82,8 @@ def fetch_route(line_number: str) -> pd.DataFrame:
                         'route_id': int,
                         'latitude': float,
                         'longitude': float,
-                        'line_number': str
+                        'line_number': str,
+                        'order': int
                     }
                 )
 
@@ -85,6 +91,7 @@ def fetch_route(line_number: str) -> pd.DataFrame:
                     [
                         'line_number',
                         'route_id',
+                        'order',
                         'latitude',
                         'longitude'
                     ]
@@ -97,6 +104,8 @@ def fetch_route(line_number: str) -> pd.DataFrame:
             else:
                 print(f'Route request for line number {line_number} has resulted in an empty list.')
                 return None
+
+    # 4. Handle errors.
 
     except requests.Timeout:
         print('Route request has timed out.')
@@ -137,7 +146,7 @@ def fetch_lines() -> pd.DataFrame:
 
 def fetch_routes() -> pd.DataFrame:
     '''
-    Fech all routes.
+    Fetch all routes.
 
     Returns:
         pd.DataFrame: All bus routes.
